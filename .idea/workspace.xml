@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e18c4c4-4281-44f1-a438-4d568d3a5086" name="Changes" comment="" />
+    <list default="true" id="0e18c4c4-4281-44f1-a438-4d568d3a5086" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/exceptions/ExceptionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/exceptions/NombreNonEntierException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/exceptions/CodeDeptMinNonEntierException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/exceptions/DonneeInvalideException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/exceptions/DonneeInvalideException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/exceptions/PopulationMaxNonEntierException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/exceptions/PopulationMinNonEntierException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RechercheDepartementsPlusPeuplees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RechercheDepartementsPlusPeuplees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RecherchePopulationBorneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RecherchePopulationBorneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RecherchePopulationDepartementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RecherchePopulationDepartementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RecherchePopulationRegionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RecherchePopulationRegionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RecherchePopulationVilleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RecherchePopulationVilleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RechercheRegionsPlusPeuplees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RechercheRegionsPlusPeuplees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RechercheVillesPlusPeupleesDepartement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RechercheVillesPlusPeupleesDepartement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RechercheVillesPlusPeupleesFrance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RechercheVillesPlusPeupleesFrance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RechercheVillesPlusPeupleesRegion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/recensement/services/RechercheVillesPlusPeupleesRegion.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Exception" />
       </list>
     </option>
@@ -23,21 +43,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "eagle-tex"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;eagle-tex&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/eagle-tex/java-poo-recensement.git",
-    "accountId": "8344f7f2-416b-4819-9883-f033ba2405fc"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/eagle-tex/java-poo-recensement.git&quot;,
+    &quot;accountId&quot;: &quot;8344f7f2-416b-4819-9883-f033ba2405fc&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2nvJJ6weKX7yMmktEI2ru3ayk9R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,7 +77,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "google-java-format.settings",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -103,10 +126,15 @@
       <option name="presentableId" value="Default" />
       <updated>1729847542070</updated>
       <workItem from="1729847543447" duration="5069000" />
+      <workItem from="1729943764485" duration="3978000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

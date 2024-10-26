@@ -1,7 +1,7 @@
 package fr.diginamic.recensement.services;
 
 import fr.diginamic.recensement.entites.Recensement;
-import fr.diginamic.recensement.exceptions.DonneeInvalideException;
+import fr.diginamic.recensement.exceptions.ExceptionApplication;
 import java.util.Scanner;
 
 /**
@@ -19,5 +19,5 @@ public abstract class MenuService {
    * @param scanner scanner
    */
   public abstract void traiter(Recensement recensement, Scanner scanner)
-      throws DonneeInvalideException;
+      throws ExceptionApplication;
 }

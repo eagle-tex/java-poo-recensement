@@ -3,6 +3,8 @@ package fr.diginamic.recensement.services;
 import fr.diginamic.recensement.entites.Recensement;
 import fr.diginamic.recensement.entites.Ville;
 import fr.diginamic.recensement.exceptions.DonneeInvalideException;
+import fr.diginamic.recensement.exceptions.ExceptionApplication;
+import fr.diginamic.recensement.exceptions.NombreNonEntierException;
 import java.util.List;
 import java.util.Scanner;
 import org.apache.commons.lang3.math.NumberUtils;
@@ -16,32 +18,29 @@ import org.apache.commons.lang3.math.NumberUtils;
 public class RecherchePopulationBorneService extends MenuService {
 
   @Override
-  public void traiter(Recensement rec, Scanner scanner) throws DonneeInvalideException {
+  public void traiter(Recensement rec, Scanner scanner) throws ExceptionApplication {
 
     System.out.println("Quel est le code du département recherché ? ");
     String choix = scanner.nextLine();
 
     System.out.println("Choisissez une population minimum (en milliers d'habitants): ");
     String saisieMin = scanner.nextLine();
-
-    System.out.println("Choisissez une population maximum (en milliers d'habitants): ");
-    String saisieMax = scanner.nextLine();
-
     if (NumberUtils.toInt(saisieMin) == 0) {
-      throw new DonneeInvalideException("La population minimum est invalide");
-    }
-
-    if (NumberUtils.toInt(saisieMax) == 0) {
-      throw new DonneeInvalideException("La population maximum est invalide");
+      throw new NombreNonEntierException("Nombre non entier: La population minimum est invalide");
     }
 
     int min = Integer.parseInt(saisieMin) * 1000;
-    int max = Integer.parseInt(saisieMax) * 1000;
-
     if (min < 0) {
       throw new DonneeInvalideException("La population minimum est négative");
     }
 
+    System.out.println("Choisissez une population maximum (en milliers d'habitants): ");
+    String saisieMax = scanner.nextLine();
+    if (NumberUtils.toInt(saisieMax) == 0) {
+      throw new NombreNonEntierException("Nombre non entier: La population maximum est invalide");
+    }
+
+    int max = Integer.parseInt(saisieMax) * 1000;
     if (max < 0) {
       throw new DonneeInvalideException("La population maximum est négative");
     }
